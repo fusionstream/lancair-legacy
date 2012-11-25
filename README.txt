@@ -1,0 +1,1 @@
+# Lancair Legacy for FlightGear
