@@ -4,6 +4,13 @@
 	<!-- Cronograph -->
 	<model>
 		<name>crono</name>
+		<path>Aircraft/Instruments-3d/clock/clock.xml</path>
+		<offsets>
+			<x-m>  0.395 </x-m>
+			<y-m> -0.438 </y-m>
+			<z-m>  0.424 </z-m>
+			<pitch-deg>0</pitch-deg>
+		</offsets>
 	</model>
 
 	<!-- CDI2 -->
@@ -17,6 +24,7 @@
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
+
 
 	<!-- Airspeed Indicator -->
 	<model>
@@ -41,6 +49,7 @@
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>
+
 
 	<!-- Autopilot -->
 	<model>
@@ -72,6 +81,7 @@
 				<pitch-deg>0</pitch-deg>
       </offsets>
   </model>
+
 
   <model><!-- Annunciator -->
       <path>Aircraft/Instruments-3d/kfc200/fd-annun.xml</path>
@@ -107,37 +117,8 @@
 		</offsets>
 	</model>
 
-	<!-- MFD -->
-	<!--model>
-		<name>kns80</name>
-		<path>Aircraft/Instruments-3d/primus-1000/MFD/MFD.xml</path>
-		<offsets>
-			<x-m>  0.395 </x-m>
-			<y-m>  0.000 </y-m>
-			<z-m>  0.526 </z-m>
-			<pitch-deg>0</pitch-deg>
-		</offsets>
-	</model-->
-	
-	<model><!-- Altitude Selector -->
-      <path>Aircraft/Instruments-3d/kfc200/kas297.xml</path>
-      <offsets>
-      	<x-m>  0.395 </x-m>
-				<y-m> -0.169 </y-m>
-				<z-m>  0.494 </z-m>
-				<pitch-deg>0</pitch-deg>
-      </offsets>
-  </model>
 
-	<model><!-- kma20 -->
-      <path>Aircraft/Instruments-3d/kma20/kma20.xml</path>
-			<offsets>
-				<x-m>  0.390 </x-m>
-				<y-m>  0.000 </y-m>
-				<z-m>  0.522 </z-m>
-				<pitch-deg>0</pitch-deg>
-			</offsets>
-  </model>
+
 
 
 	
@@ -166,31 +147,6 @@
 		</offsets>
 	</model>
 
-	<!-- Autopilot -->	
-	<model>
-      <path>Aircraft/Instruments-3d/kap140/KAP140TwoAxisAlt.xml</path>
-			<offsets>
-				<x-m>  0.385 </x-m>
-				<y-m>  0.001 </y-m>
-				<z-m>  0.251 </z-m>
-				<pitch-deg>0</pitch-deg>
-			</offsets>
-	</model>
-	
 
-	<!-- Throttle Quadrant -->	
-	<!--model>
-      <path>Aircraft/Instruments-3d/quadrant/quadrant.xml</path>
-			<offsets>
-				<x-m>  0.400 </x-m>
-				<y-m>  0.000 </y-m>
-				<z-m>  0.151 </z-m>
-				<pitch-deg>0</pitch-deg>
-			</offsets>
-	</model-->
-	
-	<!-- Left Pedals -->	
-
-	<!-- Right Pedals -->
 	
 </PropertyList>

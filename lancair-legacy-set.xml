@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <PropertyList>
-	<sim>
+	<sim include="Systems/views.xml">
 		
 		<!-- Basic Details -->
 		<description>Lancair Legacy</description>
@@ -8,19 +8,6 @@
 		<author>Kaleb Heitzman</author>
 		<flight-model>yasim</flight-model>
 		<aero>lancair-legacy</aero>
-
-		<view>
-		  <name>Cockpit View</name>
-	    <type>lookfrom</type>
-	    <internal type="bool">true</internal>
-	    <config>
-	      <from-model type="bool">true</from-model>
-	      <from-model-idx type="int">0</from-model-idx>
-				<x-offset-m type="double"> -0.25 </x-offset-m>
-				<y-offset-m type="double">  0.58 </y-offset-m>
-				<z-offset-m type="double">  1.26 </z-offset-m>
-	    </config>
-	  </view>
 		
 		<!-- Status and Rating -->
 		<status>development</status>
@@ -33,7 +20,7 @@
 		
 		<!-- Splash Details -->
 		<startup>
-			<splash-texture>Aircraft/lancair-legacy/splash.png</splash-texture>
+			<splash-texture>Aircraft/lancair-legacy/Splashes/splash.png</splash-texture>
 			<splash-title>Lancair Legacy</splash-title>
 		</startup>
 		
@@ -86,6 +73,7 @@
 		
 	</sim>
 	
+	<!-- Nasal Scripts -->
 	<nasal>
 		<lancair-legacy>
       <file>Aircraft/lancair-legacy/Models/Instruments/kfc200/kfc-200.nas</file>

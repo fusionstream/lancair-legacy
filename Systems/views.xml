@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<PropertyList>
+	<sim>
+		<view>
+		  <name>Cockpit View</name>
+	    <type>lookfrom</type>
+	    <internal type="bool">true</internal>
+	    <config>
+	      <from-model type="bool">true</from-model>
+	      <from-model-idx type="int">0</from-model-idx>
+				<x-offset-m type="double"> -0.25 </x-offset-m>
+				<y-offset-m type="double">  0.58 </y-offset-m>
+				<z-offset-m type="double">  1.26 </z-offset-m>
+	    </config>
+	  </view>
+	</sim>
+</PropertyList>
